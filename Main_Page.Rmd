@@ -2,13 +2,19 @@
 title: "Proyecto II - Visualización de la información: IC8056"
 author: "Carlos Eduardo Leiva Madrigal y Andrés Mora Urbina"
 date: '2025-06-06'
-output: html_document
+output:
+    bookdown::gitbook:
+    toc: true
+    number_sections: true
+    toc_depth: 3
+
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 source("grafo_mecatronica_completo.R", encoding = "UTF-8")
 library(visNetwork)
+library(bookdown)
 ```
 
 # Ingeniería en Mecatrónica
