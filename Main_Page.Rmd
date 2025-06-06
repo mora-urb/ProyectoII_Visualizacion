@@ -1,0 +1,43 @@
+---
+title: "Proyecto II - Visualización de la información: IC8056"
+author: "Carlos Eduardo Leiva Madrigal y Andrés Mora Urbina"
+date: '2025-06-06'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("grafo_mecatronica_completo.R", encoding = "UTF-8")
+library(visNetwork)
+```
+
+# Ingeniería en Mecatrónica
+
+## Descripción de la Carrera
+
+Es una disciplina integradora de la electromecánica, la electrónica, la computación y los sistemas de control, cuyo conocimiento y aplicación combinan varios campos. Su objeto de estudio se focaliza en proporcionar sistemas integrales, inteligentes, flexibles y funcionales que permitan crear productos versátiles, económicos, fiables, simples y en armonía con el ser humano y el medio ambiente.
+
+### Perfil Profesional
+
+Personas interesadas en el campo de la tecnología mecatrónica, con capacidad investigativa, creativa, organizativa, de liderazgo y de innovación, con habilidades para utilizar la matemática, la física y la química como medio de solución de problemas, e interés en aprender a planificar y programar el desarrollo de proyectos desde su concepción hasta su funcionamiento.
+
+Las opciones laborales más destacadas se presentan en las áreas de electricidad, electrónica, procesos industriales, mercadeo, asesoría técnica y desarrollo de nuevas tecnologías para instituciones como las siguientes:
+
+- Empresas relacionadas con producción industrial.
+- Centros de investigación.
+- Organismos gubernamentales y empresas suministradoras y fabricantes de equipos.
+
+### Facilidades
+
+Los estudiantes del plan de estudios de la carrera de Ingeniería Mecatrónica tendrán acceso a servicios que les servirán de herramienta para la formación integral teórico-práctica y de investigación, tales como los siguientes:
+
+- Equipos computacionales.
+- Laboratorio de alta tecnología.
+
+## Grafo de Plan de Estudios
+
+A continuación se presenta un grafo que conforma todo el plan de de estudios que compone a la carrera, con todos los cursos como nodos y las respectivas aristas que representan los requesitos entre cursos.
+
+```{r}
+grafo_mecatronica()
+```
